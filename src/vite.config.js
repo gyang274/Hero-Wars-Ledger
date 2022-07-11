@@ -28,5 +28,5 @@ export default defineConfig({
   // // gh-page look for __absolute__ directory w.r.t account, 
   // //  but want look for __relative__ directory w.r.t account's project
   // // see resume-template for details
-  // base: '',
+  base: '/Hero-Wars-Ledger/',
 })
