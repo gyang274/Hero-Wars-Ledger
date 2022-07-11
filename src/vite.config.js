@@ -22,5 +22,11 @@ export default defineConfig({
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
-  }
+  },
+  // // set base = '', default '/'
+  // //  or use `npm run build --base=""` when build
+  // // gh-page look for __absolute__ directory w.r.t account, 
+  // //  but want look for __relative__ directory w.r.t account's project
+  // // see resume-template for details
+  // base: '',
 })
